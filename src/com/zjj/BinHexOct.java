@@ -14,7 +14,7 @@ public class BinHexOct {
 		//toBa(60);
 	}
 	/**
-	 * 十进制-->二进制
+	 * 十进制-->二进制 
 	 * @param num
 	 */
 	public static void toBin(int num)

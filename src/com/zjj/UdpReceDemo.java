@@ -33,7 +33,7 @@ public class UdpReceDemo {
 			ds.receive(new DatagramPacket(buf, buf.length));
 			System.out.println(new String(buf));
 		} catch (SocketException e) {
-			System.out.println("监听超时");
+			System.out.println("监听超时"+e.getMessage());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}finally {

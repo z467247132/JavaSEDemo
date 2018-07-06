@@ -5,7 +5,7 @@ package com.zjj;
  * @author ZJJ
  *
  */
-public class bubboSort {
+public class BubboSort {
 
 	public static void main(String[] args) {
 		int[] arr = {1,3,6,47,9,4,5,6,4};

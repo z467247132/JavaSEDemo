@@ -22,7 +22,7 @@ public class UdpSendDemo {
 	public static void main(String[] args) {
 		DatagramSocket ds = null;
 		try {
-			 ds = new DatagramSocket();
+			ds = new DatagramSocket();
 			byte[] buf = "你是一个大蠢蛋".getBytes();
 			ds.send(new DatagramPacket(buf, buf.length, InetAddress.getByName("localhost"), 10000));
 		} catch (SocketException e) {
